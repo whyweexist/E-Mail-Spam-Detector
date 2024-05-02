@@ -45,7 +45,7 @@ model = pd.read_pickle('models/model.pkl')
 
 st.title(':rainbow[*SMS/Email Spam Detection*]')
 st.markdown("-------------------")
-st.markdown('##### Discover if your text messages are safe or sneaky! Try this SMS Spam Detection now!')
+st.markdown('##### Discover if your text messages are safe or sneaky! Try this Email Spam Detection now!')
 st.markdown('###### This model can detect spam messages with an accuracy of 97%.')
 
 st.markdown(" ")
