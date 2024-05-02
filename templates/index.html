@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Email Spam Classifier</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+  body{
+      padding: auto;
+      margin: auto;
+      background-positions:centre;
+      background-size:cover;
+      background-image: linear-gradient (rgba(9,0,77,0.65), rgba(9,0,77,0.65)),url('https://www.naturalnetworks.com/files/2023/03/Importance-of-Email-Spam-Filter.jpg');
+  }
+  
+      .logoESD{
+     width: 240px;
+     height: 200px;
+      border: 5px solid black;
+    border-radius: 7px;
+      display: flex;
+     justify-content:  center;
+     
+ }
+ .logo{
+     
+     padding: 5px;
+     display: flex;
+     justify-content:  center;
+ }
+ .esd{
+     font-style: "Montserrat",sans-serif;
+     font-size: 100px;
+     font-weight: 10px;
+     padding-top: px;
+ }
+ p{
+    font-style: Poppins;
+    font-size: 40px;
+    font-weight: 100;
+ }
+ .container h2{
+     font-size: 40px;
+     font-style: sans-serif;
+     font-weight: 100;
+     line-weight: 20px;
+     margin-bottom: 25px;
+ }
+ .container form{
+     height: 100px;
+     display: flex;
+     align-items: center;
+     background: #fff;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 2px solid gray;
+     border-radius: 3px;
+ }
+ .container form input{
+     border: 0;
+     outline: 0;
+     width: 100%;
+     font-size: 16px;
+     padding-left: 10px;
+ }
+  </style>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Email Spam Classifier</span>
+    </a>
+    
+    
+  </div>
+</header>
+
+<!--input form-->
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <!--logo-->
+<div class="logo">
+    
+
+<div class="logoESD">
+    <div class="esd">
+        ESD
+        
+    </div>
+</div>
+</div>
+ }
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Email Spam Detector</h1>
+      <p class="mb-8 leading-relaxed">A Tool to Check if an Email is Spam or Ham </p>
+      
+    </div>
+  </div>
+</section>
+
+<!--input form-->
+<div class="container">
+    <h2>Type the Email here to check if the email is spam or a ham</h2>
+    <form action="" method="post" accept-charset="utf-8">
+        <input type="text" placeholder="Write the Email here" name="email" id="email" value="" />
+        
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
