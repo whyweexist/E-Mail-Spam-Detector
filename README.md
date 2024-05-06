@@ -15,5 +15,22 @@ In an era where digital communication is essential, the volume of unsolicited an
 - nltk library
 - sci-kit learn, ect
 
-## Testing 
-To access the web app follow link- https://text-spam-detection-system-8oqenhhkagkzpcg7yxfx96.streamlit.app/
+**Evaluation Matrix**
+
+Accuracy: \frac{TP+TN}{TP+TN+FP+FN}
+Recall : \frac{TP}{TP+FN}
+Precision: \frac{TP}{TP+FP}
+F1-Measure: \frac{2*Recall*Precision}{Recall+Precision}
+Confusion Matrix
+Considering SPAM as a positive class and HAM as the negative class:
+
+SPAM (Predicted)	HAM (Predicted)
+SPAM (Actual)	TP = 336	FN = 64
+HAM (Actual)	FP = 6	TN = 394
+Accuracy: 0.9125
+
+Precision: 0.9824561403508771
+
+Recall: 0.84
+
+f1-measure: 0.9056603773584906
