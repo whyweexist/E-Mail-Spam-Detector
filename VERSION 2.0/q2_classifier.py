@@ -3,7 +3,7 @@ import sys
 import csv
 from collections import Counter
 
-__author__ = 'Shreyas Bhatia, Prakhar Avasthi'
+__author__ = 'DHRUV SHUBHANSHI AND ADITYA'
 
 from optparse import OptionParser
 import numpy as np
