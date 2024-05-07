@@ -59,6 +59,13 @@ if st.button("Predict"):
         transformed_txt = transform_text(user_input)
         converted_num = tfidf.transform([transformed_txt])
         result = model.predict(converted_num)[0]
+        transformed_txt = transform_text(user_input)
+        print(f"Transformed Text: {transformed_txt}")  # Debug line
+        converted_num = tfidf.transform([transformed_txt])
+        print(f"TF-IDF Vector: {converted_num.toarray()}")  # Debug line
+        result = model.predict(converted_num)[0]
+        print(f"Prediction: {result}")  # Debug line
+
 
         # Display prediction
         if result == 1:
